@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+
+}
+body{
+  background-color: pink;
+  font-family: sans-serif;
+}
+.container{
+  max-width: 1200px;
+  border-style: solid;
+  background-color: #fff;
+  margin: auto;
+  float: left;
+  position: absolute;
+}
+.box1{
+  width: 20%;
+  border-style: dotted;
+  background: #fff;
+  float: left;
+}
+.box2{
+  width: 60%;
+  border-style: dotted;
+  background: #fff;
+  float:left;
+  margin:0 2%;
+  }
+.box3{
+  width: 8.3%;
+  border-style: dotted;
+  background: #fff;
+  float:left;
+}
+header{
+  background-color: blue;
+  width: 100vw;
+  height: 20vh;
+  position: relative;
+}
+h2{
+  font-size: 2em;
+}
+p{
+  font-size: 0.813em;
+}
+
+@media (max-width: 900px){
+  .container{
+    width: 95vh;
+    border: 20px;
+    }
+.box1{
+width: 40%;
+float: left;
+}
+.box2{
+  width: 55%;
+}
+}
